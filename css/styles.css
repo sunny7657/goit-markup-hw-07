@@ -287,8 +287,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-main-color);
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     display: inline-block;
     transition: color var(--transition-dur-and-func);
   }
@@ -357,14 +355,6 @@ body {
     font-weight: 400;
   }
 }
-
-/* .contact-wrap {
-  @media screen and (min-width: 768px) {
-    position: relative;
-    width: 118px;
-    height: 40px;
-  }
-} */
 
 .contact-list {
   position: absolute;
