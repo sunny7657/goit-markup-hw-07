@@ -1423,9 +1423,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 72px 24px 24px 24px;
-  /* max-width: 392px; */
-  /* min-height: 586px; */
+  padding: 72px 16px 24px 16px;
+  width: 95%;
+  min-height: 586px;
   background-color: var(--modal-background-color);
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1434,6 +1434,14 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 250ms;
+
+  @media screen and (min-width: 428px) {
+    width: 392px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 408px;
+  }
 }
 
 .backdrop.is-hidden .modal {
