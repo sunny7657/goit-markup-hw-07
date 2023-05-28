@@ -160,16 +160,16 @@
     </header>
     <main>
       <!-- HERO -->
-      <!-- <section class="hero section">
+      <section class="hero section">
         <div class="container hero-container">
           <h1 class="main-title">Effective Solutions For Your Business</h1>
           <button class="modal-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- FEATURES -->
-      <!-- <section class="features section">
+      <section class="features section">
         <div class="container features-container">
           <h2 class="features-title title visually-hidden">Features</h2>
           <ul class="features-list list">
@@ -227,16 +227,20 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ABOUT -->
-      <!-- <section class="about section">
+      <section class="about section">
         <div class="container">
           <h2 class="about-title title">What are we doing</h2>
           <ul class="about-list list">
             <li class="about-item">
               <img
                 class="about-img"
-                src="./images/gallery/monitor.jpg"
+                srcset="
+                  ./images/gallery/monitor_desk@1x.jpg 1x,
+                  ./images/gallery/monitor_desk@2x.jpg 2x
+                "
+                src="./images/gallery/monitor_desk@1x.jpg"
                 alt="Monitor"
                 width="360"
                 height="300"
@@ -245,7 +249,11 @@
             <li class="about-item">
               <img
                 class="about-img"
-                src="./images/gallery/phone.jpg"
+                srcset="
+                  ./images/gallery/message_desk@1x.jpg 1x,
+                  ./images/gallery/message_desk@2x.jpg 2x
+                "
+                src="./images/gallery/message_desk@1x.jpg"
                 alt="Phone"
                 width="360"
                 height="300"
@@ -254,7 +262,11 @@
             <li class="about-item">
               <img
                 class="about-img"
-                src="./images/gallery/hand_phone.jpg"
+                srcset="
+                  ./images/gallery/app_desk@1x.jpg 1x,
+                  ./images/gallery/app_desk@2x.jpg 2x
+                "
+                src="./images/gallery/app_desk@1x.jpg"
                 alt="Hand holding the phone"
                 width="360"
                 height="300"
@@ -262,16 +274,20 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- OUR TEAM -->
-      <!-- <section class="team-section section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="team-title title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/employees/mark_guerrero.jpg"
+                srcset="
+                  ./images/employees/mark_@1x.jpg 1x,
+                  ./images/employees/mark_@2x.jpg 2x
+                "
+                src="./images/employees/mark_@1x.jpg"
                 alt="Employee's photo"
                 width="264"
                 height="260"
@@ -338,7 +354,11 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/employees/tom_ford.jpg"
+                srcset="
+                  ./images/employees/tom_@1x.jpg 1x,
+                  ./images/employees/tom_@2x.jpg 2x
+                "
+                src="./images/employees/tom_@1x.jpg"
                 alt="Employee's photo"
                 width="264"
                 height="260"
@@ -405,7 +425,11 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/employees/camila_garcia.jpg"
+                srcset="
+                  ./images/employees/camila_@1x.jpg 1x,
+                  ./images/employees/camila_@2x.jpg 2x
+                "
+                src="./images/employees/camila_@1x.jpg"
                 alt="Employee's photo"
                 width="264"
                 height="260"
@@ -472,7 +496,11 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/employees/daniel_wilson.jpg"
+                srcset="
+                  ./images/employees/daniel_@1x.jpg 1x,
+                  ./images/employees/daniel_@2x.jpg 2x
+                "
+                src="./images/employees/daniel_@1x.jpg"
                 alt="Employee's photo"
                 width="264"
                 height="260"
@@ -538,9 +566,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- CUSTOMERS -->
-      <!-- <section class="customers-section section">
+      <section class="customers-section section">
         <div class="container customers-container">
           <h2 class="customers-title title">Customers</h2>
           <ul class="customers-list list">
@@ -624,10 +652,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- FOOTER -->
-    <!-- <footer class="footer section">
+    <footer class="footer section">
       <div class="footer-container container">
         <div class="footer-logo-container">
           <a class="logo link logo-link" href="./index.html"
@@ -714,9 +742,9 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- MODAL WINDOW -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -795,7 +823,7 @@
           <button class="modal-form-submit modal-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
