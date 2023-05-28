@@ -290,8 +290,8 @@ body {
   }
 
   @media screen and (min-width: 1158px) {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
@@ -403,6 +403,12 @@ body {
     letter-spacing: 0.04em;
     color: var(--body-main-color);
     transition: color var(--transition-dur-and-func);
+  }
+
+  @media screen and (min-width: 1158px) {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -559,12 +565,15 @@ body {
   letter-spacing: 0.02em;
 }
 
+.mobile-menu-contact-item:first-child {
+  margin-bottom: 40px;
+}
+
 .mobile-menu-contact-tel {
   display: block;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  margin-bottom: 40px;
 
   color: var(--primary-brand-color);
 
@@ -621,7 +630,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 429px) {
+@media only screen and (min-width: 428px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -643,13 +652,14 @@ body {
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/hero_desk@1x.jpg);
+    background-size: 1440px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -662,6 +672,14 @@ body {
         ),
         url(../images/hero/hero_desk@2x.jpg);
     }
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
+    background-size: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 }
 
@@ -832,6 +850,10 @@ body {
 .section.about {
   @media screen and (max-width: 1157px) {
     display: none;
+  }
+
+  @media screen and (min-width: 1158px) {
+    padding-top: 0;
   }
 }
 
@@ -1082,7 +1104,7 @@ body {
 .footer-logo-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   gap: 16px;
   width: 268px;
   margin: 0 auto;
@@ -1097,18 +1119,8 @@ body {
   }
 }
 
-.logo-link {
-  @media screen and (min-width: 768px) {
-    margin-right: auto;
-  }
-}
-
 .accent-light {
   color: var(--secondary-white-color);
-}
-
-.footer-logo-desc {
-  margin: 0 auto;
 }
 
 .desc-light {
@@ -1324,7 +1336,7 @@ body {
 /* Portfolio */
 
 /* ==================== SERVICES ==================== */
-/* .services {
+.services {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -1391,7 +1403,7 @@ body {
   border: 1px solid var(--accent-light-color);
   border-top: none;
   padding: 32px 16px;
-} */
+}
 
 /* ==================== /SERVICES ==================== */
 
