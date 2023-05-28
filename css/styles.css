@@ -616,6 +616,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -659,7 +668,6 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/hero_desk@1x.jpg);
-    background-size: 1440px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -672,14 +680,6 @@ body {
         ),
         url(../images/hero/hero_desk@2x.jpg);
     }
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .hero {
-    background-size: 1440px;
-    padding-top: 188px;
-    padding-bottom: 188px;
   }
 }
 
